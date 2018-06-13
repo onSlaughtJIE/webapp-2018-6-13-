@@ -1,0 +1,9 @@
+platform:ios,'7.0'
+
+target ‘webapp’ do
+pod 'AFNetworking'
+pod 'IQKeyboardManager', '~> 3.2.4'
+pod 'BaiduMapKit'
+pod 'YYCache', '~> 1.0.4'
+pod 'FDFullscreenPopGesture', '1.1'
+end
