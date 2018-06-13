@@ -1,0 +1,65 @@
+//
+//  webapp_Prefix.pch
+//  webapp
+//
+//  Created by 郑超华 on 2017/9/30.
+//  Copyright © 2017年 郑超华. All rights reserved.
+//
+
+#ifndef webapp_Prefix_pch
+#define webapp_Prefix_pch
+
+#ifdef __OBJC__
+
+#import "Macro.h"
+
+#import "LBConst.h"
+
+#import "AFNetworking.h"
+
+#import "UIKit+AFNetworking.h"
+
+#import "MBProgressHUD+LB.h"
+
+#import "LBServeConfig.h"
+
+#import "LBNetWorkHelper.h"
+
+#import "LBHTTPRequest.h"
+
+#import "MXWechatConfig.h"
+
+#import "DMCAlertCenter.h"
+
+#import "YZLocationManagerMacro.h"
+
+#import <JavaScriptCore/JavaScriptCore.h>
+
+#import "UIImage+Rotate.h"
+
+#import "WXApi.h"
+
+#import "AlipayTool.h"
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>//引入周边雷达功能所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+
+#endif
+
+
+
+
+#endif /* webapp_Prefix_pch */
